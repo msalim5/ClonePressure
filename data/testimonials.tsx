@@ -1,40 +1,36 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'Loved by our clients',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      name: 'Puff Daddy',
+      description: '',
       avatar:
-        'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
+        '/static/images/Diddy.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “I recently hired SB to clean my driveway, patio, and siding, and I couldn’t be happier with the results! From start to finish, their team was professional, punctual, and thorough. They arrived on time, explained the process, and got to work quickly.
+          The difference was night and day—years of dirt, grime, and mildew were completely washed away, making my home look brand new again. They paid attention to detail and ensured every inch was spotless. Plus, their pricing was fair, and the customer service was top-notch.
+          If you’re looking for a reliable and high-quality pressure washing service, I highly recommend SB! I’ll definitely be using them again in the future.”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
-      avatar: '/static/images/avatar2.jpg',
+      name: 'Lebron James',
+      description: '',
+      avatar: '/static/images/lebron.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “I couldn't be more impressed with the service from SB! They did an amazing job cleaning my driveway, sidewalks, and deck. The team was professional, friendly, and very knowledgeable. They took the time to explain the process and made sure everything was done with care.”
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
-      avatar: '/static/images/avatar3.jpg',
+      name: 'Obama',
+      description: '',
+      avatar: '/static/images/download.jpeg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “I was shocked at how much dirt and grime they were able to remove—my home looks fresh and rejuvenated! Their pricing was fair, and they went above and beyond to ensure I was satisfied.”
         </>
       ),
     },
