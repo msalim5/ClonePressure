@@ -8,7 +8,7 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
+    title: 'SB Pressure Washing',
     description: 'The React component library for startups',
   } as NextSeoProps,
   termsUrl: '#',
@@ -17,7 +17,7 @@ const siteConfig = {
     links: [
       {
         id: 'features',
-        label: 'Features',
+        label: 'Services',
       },
       {
         id: 'pricing',
@@ -26,15 +26,6 @@ const siteConfig = {
       {
         id: 'faq',
         label: 'FAQ',
-      },
-      {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
-        variant: 'primary',
       },
     ],
   },
