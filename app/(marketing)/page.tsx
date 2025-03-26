@@ -94,15 +94,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                SB
+                <Br /> Pressure Washing
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{' '}
-                build intuitive SaaS products with speed.
+                SB Pressure Washing <Em>Company</Em>
+                <Br />Takes care of the your cleaning needs <Br />{' '}
+                by using the most effiecient and quality equipment.
               </FallInPlace>
             }
           >

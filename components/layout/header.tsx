@@ -24,7 +24,7 @@ export const Header = (props: HeaderProps) => {
     return scrollY.on('change', () => setY(scrollY.get()))
   }, [scrollY])
 
-  const bg = useColorModeValue('whiteAlpha.700', 'rgba(29, 32, 37, 0.7)')
+  const bg = useColorModeValue('whiteAlpha.700', 'rgba(255, 0, 0, 0.7)')
 
   return (
     <Box
