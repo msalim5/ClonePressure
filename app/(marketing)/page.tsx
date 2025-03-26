@@ -113,11 +113,11 @@ const HeroSection: React.FC = () => {
 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                  Contact Us
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://demo.saas-ui.dev" //change this for backend for book appointment
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -132,7 +132,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  Book Appointment
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -212,13 +212,10 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Consultations">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            At SB Pressure Washing, we provide expert pressure washing consultations to assess your cleaning needs and recommend the best solutions. Our team evaluates surface type, grime level, and potential concerns to ensure safe and effective cleaning.
           </Text>
 
           <Flex
@@ -252,11 +249,11 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="What to Expect">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          Inspection – We assess stains, mold, and surface compatibility.
+          Customized Plan – We determine the right pressure settings and cleaning methods.
+          Estimate & Scheduling – We provide a quote and set up a convenient appointment.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
@@ -325,15 +322,14 @@ const FeaturesSection = () => {
           as="p"
         >
           Not your standard
-          <Br /> dashboard template.
+          <Br /> Pressure Washing Company.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          SB Pressure Washing includes everything you need in order to renovate your house.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Additional Services are also provided upon request
         </>
       }
       align="left"
